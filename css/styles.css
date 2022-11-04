@@ -2,6 +2,9 @@ body {
     margin: 0;
     text-align: center;
 }
+
+
+@media only screen and (min-width: 1000px)
 .top-container {
     background-color: #eaf6f6;
     position: relative;
@@ -161,9 +164,7 @@ a {
     padding-bottom: 50px;
 }
 
-.middle-container {
 
-}
 
 .bottom-container {
         margin-top: 100px;
@@ -193,4 +194,120 @@ a {
     position: absolute;
     right: 450px;
     top: 100px;
+}
+
+
+@media only screen and (min-width: 390px) {
+    .top-container {
+        background-color: #eaf6f6;
+        position: relative;
+        padding-top: 100px;
+        width: 100%;
+    }
+
+    .mountain-png {
+        width: 100%;
+    } 
+
+    .top-cloud {
+        position: absolute;
+        right: 50px;
+        top: 300px;
+        height: 30px;
+    }
+
+    .bottom-cloud {
+        position: absolute;
+        left: 40px;
+        bottom: 150px;
+        height: 30px;
+    }
+
+    h1 {
+        margin: 0 auto;
+        padding-top: 50px;
+        font-family: "Sacramento", serif;
+        font-size: 2.8rem;
+        color: #66BFBF;
+        line-height: 2;
+    }
+
+    .webh2 {
+        font-family: "Merriweather", serif;
+        font-size: 1.0rem;
+        margin-top: 0px;
+        color: #66BFBF;
+        font-weight: normal;
+    }
+
+    .profilepng {
+        height: 200px;
+        width: 200px;
+        margin-top: 100px;
+        border: solid;
+        border-radius: 100%;
+    }
+
+    .intro-para {
+        width: 70%;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        line-height: 2;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-bottom: 100px;
+    }
+
+    .skill-1 {
+        background-color: #eaf6f6;
+        border-radius: 100%;
+        width: 100%;
+        margin-right: 30px;
+        float: none;
+    }
+
+    .skill-1-para {
+        width: 100%;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        text-align: justify;
+
+    }
+
+    .myskills-1-heading {
+        text-align: center;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+
+    .css {
+        width: 100%;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        float: none;
+    }
+
+    .hobbies-heading {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .hobbies-para1 {
+        width: 100%;
+        margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        text-align: justify;
+    }
+
+    .para-above-button {
+        display: none;
+    }
+
 }
